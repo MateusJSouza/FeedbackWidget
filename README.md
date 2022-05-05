@@ -20,22 +20,24 @@
   </a>
 </p>
 
-## 🚀 Projeto
+## 🚴🏽 Projeto
 
 Um Component Widget para feedback que pode ser utilizado em qualquer site.
 
+---
+
 ## 🔧 Tecnologias
 
-- [Vite][!https://vitejs.dev/]
-- [TailWindCSS][!https://tailwindcss.com/]
-- [ReactJS][!https://reactjs.org/]
-- [NodeJS][!https://nodejs.org/pt-br/]
-- [React Native][!https://reactnative.dev/]
-- [Expo][!https://expo.dev/]
-- ESLint + Prettier + EditorConfig;
-- [VS Code][!https://code.visualstudio.com/]
+- [Vite](https://vitejs.dev/)
+- [TailWindCSS](https://tailwindcss.com/)
+- [ReactJS](https://reactjs.org/)
+- [NodeJS](https://nodejs.org/pt-br/)
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [VSCode](https://code.visualstudio.com/)
 
-## 🚀 **Em constante evolução...**
+👉🏽 [Acessar portfólio](https://mateusj-portfolio.vercel.app/)
+
 
 ---
 
