@@ -34,6 +34,7 @@ Um Component Widget para feedback que pode ser utilizado em qualquer site.
 - [NodeJS](https://nodejs.org/pt-br/)
 - [React Native](https://reactnative.dev/)
 - [Expo](https://expo.dev/)
+- [Prisma](https://www.prisma.io/)
 - [VSCode](https://code.visualstudio.com/)
 
 👉🏽 [Acessar portfólio](https://mateusj-portfolio.vercel.app/)
