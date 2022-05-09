@@ -37,7 +37,7 @@ Um Component Widget para feedback que pode ser utilizado em qualquer site.
 - [Prisma](https://www.prisma.io/)
 - [VSCode](https://code.visualstudio.com/)
 
-👉🏽 [Acessar portfólio](https://mateusj-portfolio.vercel.app/)
+👉🏽 [Acesse o meu portfólio](https://mateusj-portfolio.vercel.app/)
 
 
 ---
