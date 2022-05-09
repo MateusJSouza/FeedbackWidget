@@ -1,9 +1,11 @@
 import express from 'express';
-import nodemailer from 'nodemailer';
+import cors from 'cors';
 import { routes } from './routes';
 
 const app = express()
 
+// cors -> controle de segurança
+app.use(cors())
 // Verificar se tem algo na requisição em formato JSON
 app.use(express.json());
 app.use(routes);
