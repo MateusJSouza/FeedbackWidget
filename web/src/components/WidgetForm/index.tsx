@@ -75,7 +75,7 @@ export function WidgetForm() {
       )}
 
       <footer className="tex-xs text-neutral-400">
-        Feito com ♥ por <a href="https://mateusj-portfolio.vercel.app/" className="underline underline-offset-2">Mateus Jesus</a>
+        Feito por <a href="https://mateusj-portfolio.vercel.app/" className="underline underline-offset-2">Mateus Jesus</a>
       </footer>
     </div>
   )
