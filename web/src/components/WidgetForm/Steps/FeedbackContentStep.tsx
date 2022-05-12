@@ -1,15 +1,16 @@
-import { ArrowLeft } from "phosphor-react";
-import { FormEvent, useState } from "react";
-import { FeedbackType, feedbackTypes } from "..";
-import { api } from "../../../lib/api";
-import { CloseButton } from "../../CloseButton";
-import { Loading } from "../../Loading";
 import { ScreenshotButton } from "../ScreenshotButton";
+import { FeedbackType, feedbackTypes } from "..";
+import { CloseButton } from "../../CloseButton";
+import { FormEvent, useState } from "react";
+import { ArrowLeft } from "phosphor-react";
+
+import { api } from "../../../lib/api";
+import { Loading } from "../../Loading";
 
 interface FeedbackContentStepProps {
   feedbackType: FeedbackType;
-  onFeedbackSent: () => void;
   onFeedbackRestartRequested: () => void;
+  onFeedbackSent: () => void;
 }
 
 export function FeedbackContentStep({
@@ -26,6 +27,7 @@ export function FeedbackContentStep({
   async function handleSubmitFeedback(event: FormEvent) {
     event.preventDefault();
 
+    setIsSendingFeedback(true)
     await api.post('/feedbacks', {
       type: feedbackType,
       comment,
