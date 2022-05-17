@@ -28,11 +28,11 @@ export function FeedbackContentStep({
     event.preventDefault();
 
     setIsSendingFeedback(true)
-    await api.post('/feedbacks', {
-      type: feedbackType,
-      comment,
-      screenshot
-    })
+    // await api.post('/feedbacks', {
+    //   type: feedbackType,
+    //   comment,
+    //   screenshot
+    // })
 
     setIsSendingFeedback(false);
     onFeedbackSent();
